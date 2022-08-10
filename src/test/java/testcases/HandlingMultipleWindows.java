@@ -19,6 +19,7 @@ public class HandlingMultipleWindows {
 		String parentWindowHandle=driver.getWindowHandle();
 		WebElement button = driver.findElement(By.xpath("//button[contains(@id,'windowB')]"));
 		button.click();
+		//System.out.println("This is new branch manju");
 		Set<String> windowHandles = driver.getWindowHandles();
 		// WebElement childWindowHeading =
 				// driver.findElement(By.xpath("//h1[starts-with(@id,'sampleHeading')]"));
